@@ -1,0 +1,43 @@
+# --- Virtual Environments ---
+# Python 가상 환경 폴더를 제외합니다. (venv, env 등)
+.venv/
+venv/
+env/
+.env/
+
+# --- Python Cache & Artefacts ---
+# 파이썬 캐시 및 컴파일된 파일을 제외합니다.
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# --- Streamlit ---
+# Streamlit 설정 및 중요한 비밀 키 파일을 제외합니다. (매우 중요)
+.streamlit/
+.streamlit/secrets.toml
+
+# --- IDE / Editor Settings ---
+# VS Code, PyCharm 등 코드 에디터 설정 파일을 제외합니다.
+.vscode/
+.idea/
+
+# --- Operating System Files ---
+# Mac, Windows 운영체제가 자동으로 생성하는 파일을 제외합니다.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Environment Variables ---
+# API 키와 같은 환경 변수 파일을 제외합니다.
+.env
+*.env.*
+
+# --- Log Files ---
+# 로그 파일을 제외합니다.
+*.log
